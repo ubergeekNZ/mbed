@@ -63,9 +63,9 @@ const PinMap PinMap_I2C_SDA[] = {
 
 /************PWM***************/
 const PinMap PinMap_PWM[] = {
-    {PA12, PWM_CH0, 0},
-    {PA13, PWM_CH1, 0},
-    {PA14, PWM_CH2, 0},
+    {PD1, PWM_CH0, 0},
+    {PD2, PWM_CH1, 0},
+    {PD3, PWM_CH2, 0},
     {NC  , NC   , 0}
 };
 
